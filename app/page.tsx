@@ -115,17 +115,22 @@ export default function Landing() {
         </section>
 
         {/* Clientes */}
-        <section id="clientes" className="py-16 px-6 bg-gray-900">
-          <h3 className="text-3xl font-extrabold text-center mb-10 text-gray-200">Algunos clientes y aliados</h3>
-          <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center">
-            {Array.from({ length: 6 }).map((_, i) => (
-              <div key={i} className="h-16 bg-gray-800/70 border border-gray-700 rounded-xl flex items-center justify-center text-gray-500 text-sm">
-                Logo {i + 1}
-              </div>
-            ))}
-          </div>
-          <p className="text-center text-gray-400 text-sm mt-6">Añade aquí tus logos en SVG/PNG para máxima nitidez.</p>
-        </section>
+       <section id="clientes" className="py-16 px-6 bg-gray-900">
+  <h3 className="text-3xl font-extrabold text-center mb-10 text-gray-200">
+    Algunos clientes y aliados
+  </h3>
+  <div className="max-w-6xl mx-auto grid grid-cols-2 sm:grid-cols-3 md:grid-cols-6 gap-6 items-center">
+    <img src="/logo_1.png" alt="Cliente 1" className="h-16 mx-auto object-contain" />
+    <img src="/logo_2.png" alt="Cliente 2" className="h-16 mx-auto object-contain" />
+    <img src="/logo_3.png" alt="Cliente 3" className="h-16 mx-auto object-contain" />
+    <img src="/logo_4.png" alt="Cliente 4" className="h-16 mx-auto object-contain" />
+    <img src="/logo_5.png" alt="Cliente 5" className="h-16 mx-auto object-contain" />
+    <img src="/logo_6.png" alt="Cliente 6" className="h-16 mx-auto object-contain" />
+  </div>
+  <p className="text-center text-gray-400 text-sm mt-6">
+    Añade aquí tus logos en SVG/PNG para máxima nitidez.
+  </p>
+</section>
 
         {/* Galería */}
         <section id="galeria" className="py-20 px-6 max-w-6xl mx-auto">
