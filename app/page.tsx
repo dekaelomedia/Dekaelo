@@ -28,7 +28,7 @@ export default function Landing() {
           </p>
           <div className="mt-14 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
             <div className="aspect-video bg-gray-800 rounded-3xl flex items-center justify-center shadow-xl">
-              <span className="text-gray-500">[Video YouTube 1]</span>
+              <span className="text-gray-500">[https://www.youtube.com/embed/uul8LNP6BbQ]</span>
             </div>
             <div className="aspect-video bg-gray-800 rounded-3xl flex items-center justify-center shadow-xl">
               <span className="text-gray-500">[Video YouTube 2]</span>
