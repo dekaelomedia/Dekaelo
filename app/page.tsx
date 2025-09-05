@@ -26,14 +26,28 @@ export default function Landing() {
             ¿Y si tu empresa tuviera contenido audiovisual profesional cada mes…<br />
             sin perder tiempo ni desgastarte en producción?
           </p>
-          <div className="mt-14 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
-            <div className="aspect-video bg-gray-800 rounded-3xl flex items-center justify-center shadow-xl">
-              <span className="text-gray-500">[https://www.youtube.com/embed/uul8LNP6BbQ]</span>
-            </div>
-            <div className="aspect-video bg-gray-800 rounded-3xl flex items-center justify-center shadow-xl">
-              <span className="text-gray-500">[Video YouTube 2]</span>
-            </div>
-          </div>
+<div className="mt-14 grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+  <div className="aspect-video bg-gray-800 rounded-3xl overflow-hidden shadow-xl">
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/uul8LNP6BbQ"
+      title="Video YouTube 1"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+  <div className="aspect-video bg-gray-800 rounded-3xl overflow-hidden shadow-xl">
+    <iframe
+      className="w-full h-full"
+      src="https://www.youtube.com/embed/550zTI8nEvY"
+      title="Video YouTube 2"
+      frameBorder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowFullScreen
+    ></iframe>
+  </div>
+</div>
         </section>
 
         {/* Plan (características del servicio) */}
